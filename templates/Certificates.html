@@ -15,9 +15,32 @@
     <script src="./static/script.js"></script>
   </head>
   <body>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+        <div class="container ">
 
-
-
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span > <a class="navbar-brand" href="#"><span class="logo">༺ༀ </span><span class="logo"> PORTFOLIO  </span><span class="logo"> ༀ༻</span></a> </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/"><span class="logo">Home</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Certificates"><span class="logo">Certificates</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about"><span class="logo">About me</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><span class="logo">Contacts</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
     <div class="section-container section__color">
       <div class="container">
         <div class="row justify-content-center">
@@ -42,7 +65,7 @@
                   <div class="row">
                     <div class="col-sm-4 d-flex align-items-stretch">
                       <div class="card text-center">
-                        <img src="/img/swift.jpg" class="card-img-top" alt="Cours"/>
+                        <img src="./static/img/swift.jpg" class="card-img-top" alt="Cours"/>
                         <div class="card-body">
                           <h5 class="card-title">Сертификат GeekBrains</h5>
                           <p class="card-text">
@@ -57,7 +80,7 @@
                     </div>
                     <div class="col-sm-4 d-flex align-items-stretch">
                       <div class="card text-center ">
-                        <img src="/img/web-d.jpg" class="card-img-top" alt="Cours"/>
+                        <img src="./static/img/web-d.jpg" class="card-img-top" alt="Cours"/>
                         <div class="card-body">
                           <h5 class="card-title">Сертификат GeekBrains</h5>
                           <p class="card-text">
@@ -72,7 +95,7 @@
                     </div>
                     <div class="col-sm-4 d-flex align-items-stretch">
                       <div class="card text-center">
-                        <img src="/img/web-html-css.jpg" class="card-img-top" alt="Cours"/>
+                        <img src="./static/img/web-html-css.jpg" class="card-img-top" alt="Cours"/>
                         <div class="card-body">
                           <h5 class="card-title">Сертификат GeekBrains</h5>
                           <p class="card-text">
@@ -93,7 +116,7 @@
                   <div class="row">
                     <div class="col-sm-4 d-flex align-items-stretch">
                       <div class="card text-center">
-                        <img src="/img/osn-prog.jpg" class="card-img-top" alt="Cours"/>
+                        <img src="./static/img/osn-prog.jpg" class="card-img-top" alt="Cours"/>
                         <div class="card-body">
                           <h5 class="card-title">Сертификат GeekBrains</h5>
                           <p class="card-text">
@@ -108,7 +131,7 @@
                     </div>
                     <div class="col-sm-4 d-flex align-items-stretch">
                       <div class="card text-center">
-                        <img src="/img/site.jpg" class="card-img-top" alt="Cours"/>
+                        <img src="./static/img/site.jpg" class="card-img-top" alt="Cours"/>
                         <div class="card-body">
                           <h5 class="card-title">Сертификат GeekBrains</h5>
                           <p class="card-text">
@@ -122,7 +145,7 @@
                     </div>
                     <div class="col-sm-4 d-flex align-items-stretch">
                       <div class="card text-center">
-                        <img src="/img/web-beginer.jpg" class="card-img-top" alt="Cours"/>
+                        <img src="./static/img/web-beginer.jpg" class="card-img-top" alt="Cours"/>
                         <div class="card-body">
                           <h5 class="card-title">Сертификат GeekBrains</h5>
                           <p class="card-text">
@@ -151,8 +174,18 @@
         </div>
       </div>
     </div>
-
- {% block foot %}{% endblock %}
+     <footer class="footer-container text-center section__color">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <p>
+              © ИТМО | Проект был разработан, магистром 2 - го курса:
+              <a href="/about" title="Обо мне">Хаджибаев Кахрамон Обиджанович</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
   </body>
 </html>
